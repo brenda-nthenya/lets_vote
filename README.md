@@ -1,27 +1,45 @@
-# LetsVote
+# Lets Vote
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+This is a project that allows users to create, delete and vote for various quotes that are being displayed.
 
-## Development server
+## User Requirements
+The applications allows users to do the following:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
++ Create a new quote.
++ Upvote or downvote a quote.
++ Delete a quote
++ See the number of upvotes and number of downvotes for each quote.
 
-## Code scaffolding
+## SETUP
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To access this project  on you local files, you can clone it using the following step:
 
-## Build
+1. Open you terminal.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+2. use this command to clone, $ git clone.
 
-## Running unit tests
+3. This will clone the repository  into your local folder.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technologies used 
 
-## Running end-to-end tests
+1. ANGULAR.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+2. Git.
 
-## Further help
+3. BOOTSTRAP.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. JAVASCRIPT.
+
+5. TYPESCRIPT.
+
+## Contributions 
+Pull requests are encouraged
+
+## Contact Details
+You can contact me at immamugambi@gmail.com
+
+
+
+
+
+
