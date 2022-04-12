@@ -1,0 +1,31 @@
+<ul class="quotes">
+    <li *ngFor="let quote of quotes" [class.selected]="quote === selectedQuote" (click)="onSelect(quote)">
+        <span class="badge">{{quote.author}}</span> {{quote.description}}
+    </li>
+</ul>
+
+<div *ngIf="selectedQuote">
+
+    <h2>{{selectedQuote.description }} </h2>
+    <div><span>author: </span>{{selectedQuote.author}}</div>
+    <br>
+    <div>
+        <label for="quote-description">quote-description: </label>
+        <input id="quote-description" [(ngModel)]="selectedQuote.description" placeholder="quote">
+    </div>
+    <br>
+    <div id='btn'>
+        <button class="material-icons">delete</button>
+    </div>
+    <br>
+    <div class="play-container" style="align-items: center;">
+        <button (click)="countClick()" class="material-icons, btn btn-primary">thumb_up</button>
+        <p>{{clickCounter}}</p>
+
+
+        <button (click)="countClick1()" class="material-icons">thumb_down</button>
+        <p>{{clickCounter1}}</p>
+
+    </div>
+
+</div>
