@@ -74,8 +74,3 @@ h1 {
 .btn {
     margin-right: 5cm;
 }
-
-.btn:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
-}
