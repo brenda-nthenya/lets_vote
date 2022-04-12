@@ -36,7 +36,7 @@ To access this project  on you local files, you can clone it using the following
 Pull requests are encouraged
 
 ## Contact Details
-You can contact me at immamugambi@gmail.com
+You can contact me at bkioko70@gmail.com
 
 
 
