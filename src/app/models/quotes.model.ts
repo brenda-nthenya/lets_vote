@@ -1,2 +1,4 @@
-export interface Quotes {
-}
+export interface Quote {
+    description: string;
+    author: string;
+  }
